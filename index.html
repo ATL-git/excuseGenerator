@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="titre">
+            <h1>Excuse Generator</h1>
+        </div>
+    </header>
+
+    <div class="liste">
+        <main><label for="escuse">Pour quels situation voulez-vous une excuse ? </label><br>
+            <select name="escuse" id="escuse">
+                <option>Categories Available:</option>
+                <option value="family" name="escuse">Family</option>
+                <option value="office" name="escuse">Office</option>
+                <option value="children" name="escuse">Children</option>
+                <option value="college" name="escuse">College</option>
+                <option value="party" name="escuse">Party</option>
+                <option value="funny" name="escuse">Funny</option>
+                <option value="unbelievable" name="escuse">Unbelievable</option>
+                <option value="developers" name="escuse">Developers</option>
+                <option value="gaming" name="escuse">Gaming</option>
+            </select>
+            <p onclick="optionValid()" class="boutonValid">valider</p>
+    </div>
+    <div class="Pexcuse">
+        <h2>Excuse :</h2>
+        <p id="result"></p>
+    </div>
+
+
+    </main>
+    <footer></footer>
+    <script src="/assets/javascript/script.js"></script>
+</body>
+
+</html>
