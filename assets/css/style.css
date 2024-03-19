@@ -69,3 +69,23 @@ h1 {
     color: white;
 
 }
+
+@media (max-width : 600px){
+    .titre{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 20px;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+       
+    }
+    .boutonValid{
+        margin: auto;
+    }
+    .liste{
+        margin: auto;
+    }
+}
